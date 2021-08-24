@@ -17,12 +17,19 @@
                 <a class="logo" href="index.html"><img src="assets/geolab_01-03.svg" alt="logo"></a>
                 <div class="searchAndAbout">
                     <a class="aboutProject" href="#">პროექტის შესახებ</a>
-                    <i class="fas fa-search"></i>
+                    <i id="clickSearch" class="fas fa-search"></i>
                 </div>
             </div>
         </header>
+        <input class="search" type="search" name="search" id="searchId">
         <section class="tagsSection">
-            <div class="tagsBlock"><span class="tags">თეგები</span></div>
+            <div id="tag" class="tagsBlock"><span class="tags">თეგები</span></div>
+            <div id="listsOfTags" class="tags-list">
+                <span class="tagg">#გრაფიკული დიზაინი</span> <span class="tagg">#ვებდიზაინი</span> <span class="tagg">#UI/UX</span> <span class="tagg">#გრაფიტი</span> <span class="tagg">#ილუსტრაციები</span> 
+                <span class="tagg">#ფონტი</span> <span class="tagg">#ვებდიზაინი</span> <span class="tagg">#ილუსტრაციები</span> <span class="tagg">#UI/UX</span> <span class="tagg">#გრაფიტი</span>
+                <span class="tagg">#ვებდიზაინი</span> <span class="tagg">#ილუსტრაციები</span> <span class="tagg">#ფონტი</span> <span class="tagg">#ილუსტრაციები</span> <span class="tagg">#ვებდიზაინი</span> 
+                <span class="tagg">#ფონტი</span> <span class="tagg">#ვებდიზაინი</span> <span class="tagg">#გრაფიკული დიზაინი</span> <span class="tagg">#ილუსტრაციები</span>
+            </div>
         </section>
         <section>
             <div class="projectBlocks">
@@ -87,5 +94,8 @@
             </div>
         </footer>
     </main>
+
+    <script src="js/tags.js"></script>
+    <script src="js/search.js"></script>
 </body>
 </html>

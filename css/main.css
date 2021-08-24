@@ -30,8 +30,31 @@
 .aboutProject,
 .fa-search {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-    padding: 30px;
+    padding: 20px;
     color: #8F68A8;
+}
+.search {
+    display: none;
+    width: 100%;
+    height: 92px;
+    background-color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    margin-top: 50px;
+    outline: none;
+    padding-left: 50%;
+}
+.searchActive {
+    display: block;
+}
+.none {
+    display: none;
+}
+.fa-times {
+    display: none;
+    color: #8F68A8;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    padding: 30px;
 }
 .tagsBlock {
     margin-top: 50px;
@@ -40,6 +63,24 @@
     color: #8F68A8;
     padding: 15px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    cursor: pointer;
+}
+.tags-list {
+    max-width: 1300px;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    display: none;
+    margin-top: 50px;
+}
+.tag-active {
+    display: flex;
+}
+.tagg {
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    color: #8F68A8;
+    margin-right: 10px;
 }
 .projectBlocks {
     width: 100%;
