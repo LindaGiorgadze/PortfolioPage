@@ -133,8 +133,10 @@
     background-color: white;
 }
 .icons {
+    width: 100%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 .fa-phone-alt,
 .fa-envelope,
@@ -147,4 +149,14 @@
     margin-left: 10px;
     font-size: 20px;
     opacity: 0.8;
+    cursor: pointer;
+}
+.PhoneNumber,
+.maail {
+    color: #405089;
+    display: none;
+    margin-left: 10px;
+}
+.footeractive {
+    display: block;
 }
