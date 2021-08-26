@@ -101,7 +101,7 @@
     margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
-.project-name {
+.project-name-main {
     color: #405089;
     max-width: 133px;
     width: 100%;
@@ -115,7 +115,7 @@
 .image {
     width: 100%;
 }
-.author {
+.author-main {
     color: #405089;
     margin-bottom: 15px;
 }
@@ -154,13 +154,13 @@
 
 
 /* project name style */
-
+/* 
 .main1{
     max-width: 1600px;
     width: 100%;
    margin:0 auto;
     padding: 20px 85px;
-}
+} */
 /* section 1 style */
 
 .author-div {
