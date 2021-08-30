@@ -374,6 +374,7 @@ body {
    width: 100%;
    margin:0 auto;
    margin-top: 30px;
+   margin-bottom: 70px;
 }
 .flex-div{
     display: flex;
@@ -495,6 +496,7 @@ body {
     width: 60vw;
     margin:0 auto;
     margin-top: 70px;
+    margin-bottom: 70px;
 }
 .sec-1, .sec-2{
     display: flex;
