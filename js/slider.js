@@ -24,16 +24,3 @@ document.querySelector("button").onclick=function(){
     }
 }
 
-  
-  $("#pic1").click(function() {
-    alert("pic1");
-  });
-  $("#pic2").click(function() {
-    alert("pic2");
-  });
-  $("#pic3").click(function() {
-    alert("pic3");
-  });
-  $("#pic4").click(function() {
-    alert("pic4");
-  });

@@ -10,13 +10,12 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="icon" href="assets/geolab.jpg">
     <script src="https://kit.fontawesome.com/d688df6861.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <title>GeoLabPortfolio</title>
 </head>
 
 
 <body>
-    <main class="main">
+    <main class="main1">
         <header>
             <div class="header">
                 <a class="logo" href="index.html"><img src="assets/geolab_01-03.svg" alt="logo"></a>
@@ -79,34 +78,34 @@
         </div>
 
         <!-- section 4 -->
-<button id="pic6">ds</button>
+
         <div class="slider-div">
             <div class="flex-div">
                 <div class="div-div">
-                    <div id=pic1><img class="s-image" src="images/image2.png" alt="image"></div>
-                    <div id="slider" class="slider1">
-                        <div class="container">
+                    <img id="image2" class="s-image" src="images/image2.png" alt="image">
+              
+                        <div id="slider2" class="container">
                             <div class="window">
-                                <img class="slider-p" src="images/image2.png" alt="image">
+                                <img class="slider-p" id="pic1" src="images/image2.png" alt="image">
                                 <img class="slider-p" id="pic2" src="images/image3.png" alt="image">
                                 <img class="slider-p" id="pic3" src="images/image4.png" alt="image">
                                 <img class="slider-p" id="pic4" src="images/image5.png" alt="image">
 
                             </div>
                             <div class="btn-bar">
-                                <a onclick="back()" class="back"></a>
+                                <a onclick="back()" class="back">〈</a>
                                 <a onclick="next()" class="next">〉</a>
                             </div>
                         </div>
 
-                    </div>
+                    
                 </div>
 
-                <div id="pic2"><img class="s-image" src="images/image3.png" alt="image"></div>
+                <img class="s-image" src="images/image3.png" alt="image">
             </div>
             <div class="flex-div">
-                <div id="pic3"><img class="s-image" src="images/image4.png" alt="image"></div>
-                <div id="pic4"><img class="s-image" src="images/image5.png" alt="image"></div>
+                <img class="s-image" src="images/image4.png" alt="image">
+                <img class="s-image" src="images/image5.png" alt="image">
             </div>
         </div>
 
@@ -130,20 +129,18 @@
         <footer>
             <div class="footer">
                 <div class="icons">
-                    <i id="phone" class="fas fa-phone-alt"></i>
-                    <span id="numb" class="PhoneNumber">(032) 2 00 00 00</span>
-                    <i id="mail" class="fas fa-envelope"></i>
-                    <a class="maail" id="email" href="info@geolab.edu.ge">info@geolab.edu.ge</a>
+                    <i class="fas fa-phone-alt"></i>
+                    <i class="fas fa-envelope"></i>
                     <i class="fas fa-map-marker-alt"></i>
-                    <a href="https://www.facebook.com/GeoLabEdu/"><i class="fab fa-facebook-f"></i></a>
+                    <i class="fab fa-facebook-f"></i>
                 </div>
             </div>
         </footer>
     </main>
 
     <script src="js/slider.js"></script>
-    <script src="js/search.js"></script>
-    <script src="js/footer.js"></script>
+    <script src="js/slider2.js"></script>
+    
 </body>
 
 </html>

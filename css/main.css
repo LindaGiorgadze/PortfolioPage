@@ -260,13 +260,13 @@ body {
 
 
 /* project name style */
-/* 
+
 .main1{
     max-width: 1600px;
     width: 100%;
-   margin:0 auto;
+    margin:0 auto;
     padding: 20px 85px;
-} */
+}
 /* section 1 style */
 
 .author-div {
@@ -286,6 +286,7 @@ body {
     justify-content: space-between;
     max-width: 117px;
     width: 100%;
+    margin-top: 20px;
 }
 .icon1 {
     max-width: 32.64px;
@@ -321,7 +322,8 @@ body {
     height: 28px;
     box-shadow: 5px 4px 19px 1px #aaaaaa;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 1%;
+    padding-bottom: 1.5%;
     left: 0;
 }
 .name-n{
@@ -387,6 +389,10 @@ body {
     position:relative;
     overflow:hidden;
     font-weight:bolder;
+    display: none;
+  }
+  .container.open-menu{
+      display: block;
   }
   .window{
     width:100%;
@@ -481,3 +487,67 @@ body {
     display: block;
 }
 
+
+
+/* projectname2 style */
+
+.divide-1{
+    width: 60vw;
+    margin:0 auto;
+    margin-top: 70px;
+}
+.sec-1, .sec-2{
+    display: flex;
+    justify-content: space-between;
+}
+.sec-1{
+    width: 59vw;
+    margin-bottom: 30px;
+}
+.sec-2{
+    width: 28vw;
+}
+.container-1{
+    max-width: 235px;
+    width: 100%;
+    height: 335.37px;
+    border: 2px solid #ece8e8;
+    padding-top: 30px;
+    
+}
+.container-2{
+    max-width: 235px;
+    width: 100%;
+    height: 330.37px;
+    border: 2px solid #ece8e8;
+    padding-top: 22px;
+    
+}
+.pic-1{
+    max-width: 235px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.project-name3{
+    font-size: 12px;
+    color: #405089;
+    margin-bottom: 8%;
+   text-align: center;
+}
+.project-name4{
+    font-size: 12px;
+    color: #405089;
+    
+   text-align: center;
+}
+.author-n3 {
+    font-size: 12px;
+    color: #405089;
+    padding-left: 12px;
+    margin-bottom: 10px;
+}
+.date{
+    font-size: 12px;
+    color: #BCBABA;
+    padding-left: 12px;
+}
