@@ -23,7 +23,7 @@
             </div>
         </header>
         <div>
-            <input class="search" type="search" name="search" id="searchId">
+            <input onkeyup="myFunction()" id="searchId" class="search" type="search" name="search">
         </div>
         <section class="tagsSection">
             <div id="tag" class="tagsBlock"><span class="tags">თეგები</span></div>
@@ -35,7 +35,7 @@
             </div>
         </section>
         <section>
-            <div class="projectBlocks">
+            <div id="projBlocks" class="projectBlocks">
                 <div class="project-block" data-tags="graphics">
                     <h4 class="project-name-main">პროექტის სახელი</h4>
                     <a href="projectname.html"><div class="project-img"><img class="image" src="assets/6b6730c2a022959990da9f648a28d95f.jpg" alt="image"></div></a>
@@ -104,5 +104,6 @@
     <script src="js/search.js"></script>
     <script src="js/footer.js"></script>
     <script src="js/filterTags.js"></script>
+    <script src="js/searchFilter.js"></script>
 </body>
 </html>

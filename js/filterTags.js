@@ -15,4 +15,3 @@ document.getElementById('graphic').addEventListener('click', (event) => showTag(
 document.getElementById('webdesign').addEventListener('click', (event) => showTag(event, 'website'));
 document.getElementById('UI').addEventListener('click', (event) => showTag(event, 'ui'));
 document.getElementById('graphit').addEventListener('click', (event) => showTag(event, 'grapit'));
-// document.getElementById('illustrations').addEventListener('click', (event) => showTag(event, 'graphics'));
