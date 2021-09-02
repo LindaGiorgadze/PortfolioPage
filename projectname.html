@@ -33,10 +33,12 @@
 
         <section>
             <div class="author-div">
-                <div class="author">
-                    <img class="author-img" src="images/image1.png" alt="image">
-                    <h3 class="author-name">სალომე ყურაშვილი</h3>
-                </div>
+                <a href="projectname2.html">
+                    <div class="author">
+                        <img class="author-img" src="images/image1.png" alt="image">
+                        <h3 class="author-name">სალომე ყურაშვილი</h3>
+                    </div>
+                </a>
                 <div class="icons-div">
                     <img class="icon1" src="images/behance.png" alt="icon">
                     <img class="icon1" src="images/dribbble.png" alt="icon">
@@ -61,7 +63,7 @@
                 <h2 class="project-n">პროექტის სახელი</h2>
             </div>
             <div class="img-div">
-                <img class="man-img" src="images/man.png" alt="image">
+               
             </div>
             <div class="paragraph-div">
                 <p class="paragraph1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
@@ -81,24 +83,24 @@
 
         <div class="slider-div">
             <div class="flex-div">
-                <div class="div-div">
-                    <img id="image2" class="s-image" src="images/image2.png" alt="image">
-              
-                        <div id="slider2" class="container">
-                            <div class="window">
-                                <img class="slider-p" id="pic1" src="images/image2.png" alt="image">
-                                <img class="slider-p" id="pic2" src="images/image3.png" alt="image">
-                                <img class="slider-p" id="pic3" src="images/image4.png" alt="image">
-                                <img class="slider-p" id="pic4" src="images/image5.png" alt="image">
+                <div id="image2" class="div-div">
+                    <img class="s-image" src="images/image2.png" alt="image">
 
-                            </div>
-                            <div class="btn-bar">
-                                <a onclick="back()" class="back">〈</a>
-                                <a onclick="next()" class="next">〉</a>
-                            </div>
+                    <div id="slider2" class="container">
+                        <div class="window">
+                            <img class="slider-p" id="pic1" src="images/image2.png" alt="image">
+                            <img class="slider-p" id="pic2" src="images/image3.png" alt="image">
+                            <img class="slider-p" id="pic3" src="images/image4.png" alt="image">
+                            <img class="slider-p" id="pic4" src="images/image5.png" alt="image">
+
                         </div>
+                        <div class="btn-bar">
+                            <a onclick="back()" class="back">〈</a>
+                            <a onclick="next()" class="next">〉</a>
+                        </div>
+                    </div>
 
-                    
+
                 </div>
 
                 <img class="s-image" src="images/image3.png" alt="image">
@@ -140,7 +142,11 @@
 
     <script src="js/slider.js"></script>
     <script src="js/slider2.js"></script>
-    
+    <script src="js/click.js"></script>
+    <script> $("#image2").on("click", function () {
+            $("#slider2").toggleClass("open-menu");
+        })</script>
+
 </body>
 
 </html>

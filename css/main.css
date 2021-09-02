@@ -1,3 +1,7 @@
+
+
+
+
 body {
     background-color: #f4f4f4;
 }
@@ -342,9 +346,13 @@ body {
 /* section 3 style */
 
 .img-div{
+    background-image: url(../images/man.png);
+  background-size: cover;
+  background-repeat: no-repeat;
     margin:0 auto;
     margin-top: 40px;
     width: 53vw;
+    height: 926px;
 }
 .paragraph-div{
   
@@ -479,12 +487,12 @@ body {
   }
 
 
-.slider1{
+.container{
     display: none
     
 }
   
-.slider1.open-menu {
+.container.open-menu {
     display: block;
 }
 
@@ -493,10 +501,16 @@ body {
 /* projectname2 style */
 
 .divide-1{
-    width: 60vw;
+
     margin:0 auto;
     margin-top: 70px;
     margin-bottom: 70px;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 235px 235px 235px 235px; /*Make the grid smaller than the container*/
+    grid-gap: 15px;
+   
+    padding: 10px;
 }
 .sec-1, .sec-2{
     display: flex;
@@ -553,3 +567,4 @@ body {
     color: #BCBABA;
     padding-left: 12px;
 }
+
