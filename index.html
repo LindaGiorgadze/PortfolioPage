@@ -22,9 +22,9 @@
                 </div>
             </div>
         </header>
-        <div>
-            <input class="search" type="search" name="search" id="searchId">
-        </div>
+        <form action="">
+            <input onkeyup="myFunction()" id="searchId" class="search" type="text" name="search">
+        </form>
         <section class="tagsSection">
             <div id="tag" class="tagsBlock"><span class="tags">თეგები</span></div>
             <div id="listsOfTags" class="tags-list">
@@ -35,12 +35,14 @@
             </div>
         </section>
         <section>
-            <div class="projectBlocks">
+            <div id="projBlocks" class="projectBlocks">
                 <div class="project-block" data-tags="graphics">
-                    <h4 class="project-name-main">პროექტის სახელი</h4>
-                    <a href="projectname.html"><div class="project-img"><img class="image" src="assets/6b6730c2a022959990da9f648a28d95f.jpg" alt="image"></div></a>
-                    <span class="author-main">სალომე ყურაშვილი</span>
-                    <span class="dates">13/11/18</span>
+                    <div class="card">
+                        <h4 class="project-name-main">პროექტის სახელი</h4>
+                        <a href="projectname.html"><div class="project-img"><img class="image" src="assets/6b6730c2a022959990da9f648a28d95f.jpg" alt="image"></div></a>
+                        <span class="author-main">სალომე ყურაშვილი</span>
+                        <span class="dates">13/11/18</span>
+                    </div>
                 </div>
                 <div class="project-block" data-tags="website">
                     <h4 class="project-name-main">პროექტის სახელი</h4>
@@ -104,5 +106,6 @@
     <script src="js/search.js"></script>
     <script src="js/footer.js"></script>
     <script src="js/filterTags.js"></script>
+    <script src="js/searchFilter.js"></script>
 </body>
 </html>

@@ -90,9 +90,9 @@ body {
 .projectBlocks {
     width: 100%;
     height: auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
     margin: 100px 0;
 }
 .project-block {
