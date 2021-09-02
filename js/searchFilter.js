@@ -6,9 +6,10 @@ function myFunction() {
     blocks = document.querySelector('.projectBlocks');
     block = blocks.querySelectorAll('.project-block');
     console.log(block);
-    for(let i = 0; i < block.length; i+=1){
-        title = block[i].querySelector('.card h4.project-name-main')
-        if (title[i].innerText.toUpperCase().indexOf(filter) > -1) {
+    for(let i = 0; i < block.length; i++){
+        title = block[i].querySelector('.project-name-main');
+        console.log(title);
+        if (title.innerText.toUpperCase().indexOf(filter) > -1) {
             block[i].style.display = "";
           } else {
             block[i].style.display = "none";
