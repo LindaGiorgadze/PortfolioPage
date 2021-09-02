@@ -1,5 +1,5 @@
 function myFunction() {
-    var input, filter, blocks, block, title;
+    var input, filter, blocks, block, title, author;
 
     input = document.querySelector('#searchId');
     filter = input.value.toUpperCase();
@@ -8,8 +8,9 @@ function myFunction() {
     console.log(block);
     for(let i = 0; i < block.length; i++){
         title = block[i].querySelector('.project-name-main');
-        console.log(title);
-        if (title.innerText.toUpperCase().indexOf(filter) > -1) {
+        author = block[i].querySelector('.author-main');
+        // console.log(title, author);
+        if (title.innerText.toUpperCase().indexOf(filter) > -1 || author.innerText.toUpperCase().indexOf(filter) > -1) {
             block[i].style.display = "";
           } else {
             block[i].style.display = "none";
