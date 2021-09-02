@@ -1,0 +1,15 @@
+@media (max-width: 1000px) {
+    .projectBlocks {
+        grid-template-columns: auto auto auto;
+    }
+}
+@media (max-width: 700px) {
+    .projectBlocks {
+        grid-template-columns: auto auto;
+    }
+}
+@media (max-width: 550px) {
+    .projectBlocks {
+        grid-template-columns: auto;
+    }
+}
