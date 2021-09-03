@@ -114,6 +114,7 @@ body {
     max-width: 133px;
     width: 100%;
     margin: 0 auto 20px;
+    white-space: nowrap;
 }
 .project-img {
     max-width: 330px;
@@ -142,21 +143,27 @@ body {
 .icons {
     width: 100%;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+   align-items: center;
 }
 .fa-phone-alt,
 .fa-envelope,
 .fa-map-marker-alt,
 .fa-facebook-f {
+    max-width: 44px;
+    width: 100%;
+    height: 43px;
     background-color: #8F68A8;
-    padding: 10px;
-    border-radius: 50px;
+    padding: 12px;
+    border-radius: 50%;
     color: white;
     margin-left: 10px;
     font-size: 20px;
     opacity: 0.8;
     cursor: pointer;
+}
+.fa-facebook-f,
+.fa-map-marker-alt {
+    padding-left: 15px;
 }
 .PhoneNumber,
 .maail {
