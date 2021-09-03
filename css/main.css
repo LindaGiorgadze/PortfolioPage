@@ -127,9 +127,11 @@ body {
 .author-main {
     color: #405089;
     margin-bottom: 15px;
+    margin-left: 15px;
 }
 .dates {
     color: #BCBABA;
+    margin-left: 15px;
 }
 .footer {
     width: 100%;
