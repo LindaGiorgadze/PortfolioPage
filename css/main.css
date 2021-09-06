@@ -309,6 +309,10 @@ body {
     height: 62px;
     margin-bottom: 10px;
 }
+.author-img:hover{
+    opacity: 0.5;
+    transform: scale(1.2);
+}
 .author-name{
     font-size: 12px;
     color: #405089;
@@ -379,7 +383,7 @@ body {
     max-width: 1000px;
     width: 100%;
     margin:0 auto;
-    text-align: center;
+   
 }
 
 /* section 4 style */
@@ -502,7 +506,9 @@ body {
 .container.open-menu {
     display: block;
 }
-
+.s-image:hover{
+    opacity: 0.5;
+}
 
 
 /* projectname2 style */
@@ -540,11 +546,11 @@ body {
     
 }
 .container-1:hover{
-    transform: scale(1.5);
+    transform: scale(1.3);
     
 }
 .container-2:hover{
-    transform: scale(1.5);
+    transform: scale(1.3);
     
 }
 .container-2{

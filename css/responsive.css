@@ -42,6 +42,7 @@
 @media (max-width:580px){
     .author-div{
         flex-direction: column;
+        margin-top: 30px;
     }
     .icons-div{
         margin:0 auto;
@@ -64,12 +65,20 @@
         margin-top: 0;
         left: :0;
         padding-left: 0;
+        width: 69vw;
     }
     .slider-div{
         margin:0 auto;
     }
-    .ilustration{
-        margin:0 auto;
+    .project-name{
+        padding-top:30px;
+    }
+    .name-n{
+        margin-top:30px;
+    }
+    .paragraph1{
+        font-size: 15px;
+        width: 73vw;
     }
 }
 
@@ -97,6 +106,9 @@
     .img-div{
         background-size: contain;
         height: 220px;
+    }
+    .main1{
+        padding: 20px 30px;
     }
     
 }
