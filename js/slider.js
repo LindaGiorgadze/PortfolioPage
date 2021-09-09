@@ -28,10 +28,17 @@
 
 const imgDiv = document.querySelector('#image2');
 const images = document.querySelectorAll('.s-image');
+const slider = document.getElementById('slider2');
 
+document.querySelectorAll('.s-image').forEach(item => {
+  item.addEventListener('click', event => {
+    slider.classList.toggle('containerActive')
+  })
+})
 const projPageSlider = document.querySelector('#slider2');
 // console.log(projPageSlider);
 const sliderWindow = document.querySelector('.window');
+
 
 for (let i = 0; i < images.length; i++) {
   const element = images[i];
