@@ -53,6 +53,8 @@
     .flex-div{
        margin:0 auto;
        margin-top: 20px;
+       height: auto;
+       margin-bottom: 110px;
     }
     .container{
         display: none;
@@ -99,6 +101,9 @@
         font-size: 15px;
         width: 73vw;
     }
+    .slider-div{
+        margin-top: 55px;
+    }
 }
 @media (max-width:450px){
     .logo{
@@ -128,6 +133,9 @@
     .main1{
         padding: 20px 30px;
     }
+    .slider-div{
+        margin-top: 85px;
+    }
     
 }
 @media (max-width:350px) {
@@ -139,5 +147,8 @@
     }
     .searchAndAbout{
         max-width: 54vw;
+    }
+    .slider-div{
+        margin-top: 145px;
     }
 }
