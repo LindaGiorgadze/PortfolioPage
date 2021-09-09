@@ -79,18 +79,15 @@ function back(){
 
 }
 
-function next(){
-  const imgWidth = document.querySelector('.slider-p').width;
-  // console.log(imgWidth)
-  document.querySelector(".window").scrollLeft += imgWidth;
-}
-function back(){
-  const imgWidth = document.querySelector('.slider-p').width;
-  // console.log(imgWidth)
-  document.querySelector(".window").scrollLeft += -imgWidth;
-}
+
 
 document.addEventListener('mouseup', function(e) {
+
+  console.log(e);
   var slider = document.getElementById('slider2');
   slider.classList.remove("containerActive");
+  var d = slider.getElementsByClassName('back')
+  console.log(slider)
+  
 });
+

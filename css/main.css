@@ -379,7 +379,7 @@ body {
 .paragraph-div{
   background-color: white;
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     margin-top: 60px;
     width: 100%;
     height: 150px;
@@ -391,7 +391,7 @@ body {
     
     font-size: 18px;
     color: #273C75;
-    width: 1000px;
+    width: 53vw;
     margin: 0 auto;
 }
 
@@ -429,21 +429,17 @@ body {
 }
 /* slider style */
 .container{
-    width:107%;
-    height:104%;
-    border-radius:10px;
-   
-    position:absolute;
-    overflow:hidden;
-    font-weight:bolder;
-
+    width: 194%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    overflow: hidden;
+    font-weight: bolder;
     display: none;
-
-    padding: 100px;
+    padding: 121px;
     background-color: #707070;
-
     top: 0;
-    left: 52%;
+    left: 50%;
     transform: translate(-50%, 0);
   }
   .big-container{
@@ -451,11 +447,12 @@ body {
   }
  
   .window{
-    width:100%;
-    height:100%;
-    overflow-x:scroll;
-    display:flex;
-    scroll-behavior:smooth;
+    width: 48%;
+    height: 110%;
+    overflow-x: scroll;
+    display: flex;
+    scroll-behavior: smooth;
+    margin: 0 auto;
   }
   .window img{
     width:100%;
