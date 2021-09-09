@@ -14,8 +14,20 @@
         padding-left: 0;
         margin-bottom: 0;
     }
+
     .projectBlocks {
         grid-template-columns: auto auto;
+    }
+    .container{
+        width: 200%;
+        left: 78%;
+        height: 80%;
+    }
+    .s-image{
+        width: 40vw;
+    }
+    .div-div{
+        height: 62%;
     }
 }
 @media (max-width:880px){
@@ -27,14 +39,23 @@
         margin:0;
         max-width: 58vw;
     }
-    .s-image{
-       width: 50vw;
-    }  
+ 
 }
 @media (max-width:700px){
     .projectBlocks {
         grid-template-columns: auto;
         justify-content: center;
+    }
+    .div-div{
+        grid-template-columns: 100%;
+        margin:0 auto;
+    }
+    .flex-div{
+       margin:0 auto;
+       margin-top: 20px;
+    }
+    .container{
+        display: none;
     }
 }
 @media (max-width:580px){
