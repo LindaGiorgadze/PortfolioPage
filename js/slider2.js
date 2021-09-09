@@ -1,7 +1,7 @@
 $('.slider').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
-    arrows: true,
+    arrows: false,
     dots: false,
     centerMode: true,
     variableWidth: true,
@@ -12,15 +12,26 @@ $('.slider').slick({
     prevArrow:'<button class="slick-prev"> < </button>',
     nextArrow:'<button class="slick-next"> > </button>',
     
-    //         responsive: [                        
-    //             {
-    //               breakpoint: 576,
-    //               settings: {
-    //                 centerMode: false,
-    //                 variableWidth: false,
-    //               }
-    //             },
-    //         ]
+    // responsive: [
+    //   {
+    //     breakpoint: 768,
+    //     settings: {
+    //       arrows: false,
+    //       centerMode: true,
+    //       centerPadding: '40px',
+    //       slidesToShow: 3
+    //     }
+    //   },
+    //   {
+    //     breakpoint: 480,
+    //     settings: {
+    //       arrows: false,
+    //       centerMode: true,
+    //       centerPadding: '40px',
+    //       slidesToShow: 1
+    //     }
+    //   }
+    // ]
   });
   
   
