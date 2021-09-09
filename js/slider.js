@@ -29,15 +29,29 @@
 const imgDiv = document.querySelector('#image2');
 const images = document.querySelectorAll('.s-image');
 
+const slider = document.getElementById('slider2');
+
+document.querySelectorAll('.s-image').forEach(item => {
+  item.addEventListener('click', event => {
+    slider.classList.toggle('containerActive')
+  })
+})
+
 const projPageSlider = document.querySelector('#slider2');
 // console.log(projPageSlider);
 const sliderWindow = document.querySelector('.window');
+
 
 for (let i = 0; i < images.length; i++) {
   const element = images[i];
   element.addEventListener("click", function() {
     displayCode(slider2, element);
   });
+
+
+for (let i = 0; i < images.length; i++) {
+  const element = images[i];
+
   // console.log(element);
   const imgSrc = element.src;
   // console.log(imgSrc);
@@ -46,6 +60,7 @@ for (let i = 0; i < images.length; i++) {
   sliderImages.src = imgSrc;
   sliderWindow.appendChild(sliderImages);
   // console.log(sliderImages)
+
 }
 
 function next(){
@@ -61,4 +76,17 @@ function back(){
 
 
 
-  
+
+}
+
+function next(){
+  const imgWidth = document.querySelector('.slider-p').width;
+  // console.log(imgWidth)
+  document.querySelector(".window").scrollLeft += imgWidth;
+}
+function back(){
+  const imgWidth = document.querySelector('.slider-p').width;
+  // console.log(imgWidth)
+  document.querySelector(".window").scrollLeft += -imgWidth;
+}
+
