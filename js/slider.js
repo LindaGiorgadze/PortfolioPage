@@ -90,9 +90,3 @@ function back(){
   document.querySelector(".window").scrollLeft += -imgWidth;
 }
 
-window.addEventListener('mouseup',function(event){
-  var slider2 = document.getElementById('slider2');
-  if(event.target != slider2 && event.target.parentNode != slider2){
-      slider2.style.display = 'none';
-  }
-});  
