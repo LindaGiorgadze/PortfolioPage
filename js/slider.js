@@ -35,6 +35,9 @@ const sliderWindow = document.querySelector('.window');
 
 for (let i = 0; i < images.length; i++) {
   const element = images[i];
+  element.addEventListener("click", function() {
+    displayCode(slider2, element);
+  });
   // console.log(element);
   const imgSrc = element.src;
   // console.log(imgSrc);
@@ -55,3 +58,7 @@ function back(){
   // console.log(imgWidth)
   document.querySelector(".window").scrollLeft += -imgWidth;
 }
+
+
+
+  

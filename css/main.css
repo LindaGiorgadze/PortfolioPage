@@ -428,14 +428,12 @@ body {
     position:absolute;
     overflow:hidden;
     font-weight:bolder;
-    /* display: none; */
+    display: none;
     top: 0;
     left: 50%;
     transform: translate(-50%, 0);
   }
-  .container.open-menu{
-      display: block;
-  }
+ 
   .window{
     width:100%;
     height:100%;
