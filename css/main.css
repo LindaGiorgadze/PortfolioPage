@@ -447,12 +447,17 @@ body {
   }
  
   .window{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     width: 48%;
     height: 110%;
     overflow-x: scroll;
     display: flex;
     scroll-behavior: smooth;
     margin: 0 auto;
+    z-index: 89;
   }
   .window img{
     width:100%;
@@ -472,6 +477,7 @@ body {
     top:0px;
     left:0px;
     right:0px;
+    z-index: 88;
   }
   .btn-bar a{
     font-size:30px;
