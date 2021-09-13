@@ -82,14 +82,15 @@
     }
     .div-div{
         grid-template-columns: 100%;
-        margin:0 auto;
+    
     }
     .flex-div{
-       margin:0 auto;
+      
        margin-top: 20px;
        height: auto;
        margin-bottom: 110px;
        padding-top: 0;
+       width: 71vw;
     }
     .container{
         display: none;
@@ -99,8 +100,14 @@ width: 46vw;
     }
     .main{
         padding: 0 50px;
-    }{
+    
         margin-top: 0;
+    }
+    .slider-div{
+        width: 73vw;
+    }
+    .paragraph-div{
+        width: 101vw;
     }
 
 }
@@ -130,7 +137,7 @@ width: 46vw;
         margin-top: 0;
         left: 0;
         padding-left: 0;
-        width: 69vw;
+      
     }
     .slider-div{
         margin:0 auto;
@@ -150,6 +157,9 @@ width: 46vw;
     }
     .container{
         display: none;
+    }
+    .s-image{
+        width: 71vw;
     }
 }
 @media (max-width:450px){

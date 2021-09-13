@@ -426,7 +426,7 @@ i:hover {
 .flex-div{
   
     width: 53vw;
-    height: 917px;
+   
     display: flex;
     justify-content: space-between;
    position: relative;
@@ -484,16 +484,16 @@ width: 53vw;
   }
   .container .btn-bar{
     position:absolute;
-    width:100%;
+    width:90%;
     height:100%;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    top:0px;
-    left:0px;
-    right:0px;
+    top:50%;
+    left:50%;
+   transform: translate(-50%, -50%);
     z-index: 88;
-    padding:280px;
+   
   }
   .next{
     font-size:71px;
