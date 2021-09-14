@@ -21,11 +21,11 @@
                 <a class="logo" href="index.html"><img class="img-img" src="assets/geolab_01-03.svg" alt="logo"></a>
                 <div class="searchAndAbout">
                     <a class="aboutProject" href="aboutProject.html">პროექტის შესახებ</a>
-                    <i id="clickSearch" class="fas fa-search"></i>
+                    
                 </div>
             </div>
         </header>
-        <input class="search" type="search" name="search" id="searchId">
+       
 
 
         <!-- section1 -->
@@ -33,7 +33,7 @@
 
         <section>
             <div class="author-div">
-                <a href="projectname2.html">
+                <a href="author.html">
                     <div class="author">
                         <img class="author-img" src="images/image1.png" alt="image">
                         <h3 class="author-name">სალომე ყურაშვილი</h3>
@@ -56,7 +56,6 @@
         </section>
 
 
-
         <!-- section3 -->
         <div class="main-container">
             <div class="name-n">
@@ -65,22 +64,27 @@
             <div class="img-div">
 
             </div>
-            <div class="paragraph-div">
-                <p class="paragraph1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                    Ipsum
-                    has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                    galley
-                    of type and scrambled it to make a type specimen book. It has survived not only five centuries, but
-                    also
-                    the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
-                    1960s
-                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            </div>
+
         </div>
+    </main>
+    <div class="paragraph-div">
+        <p class="paragraph1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem
+            Ipsum
+            has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+            galley
+            of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+            but
+            also
+            the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+            1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+            desktop
+            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
 
-        <!-- section 4 -->
-
+    <!-- section 4 -->
+    <main class="main">
         <div class="slider-div">
             <div class="flex-div">
                 <div id="image2" class="div-div">
@@ -89,30 +93,25 @@
                     <img id="image3" class="s-image" src="images/image4.png" alt="image">
                     <img id="image3" class="s-image" src="images/image5.png" alt="image">
                 </div>
-                <div class="big-container">
-                    <div id="slider2" class="container">
-                        <div class="window">
 
-                        </div>
-                        <div class="btn-bar">
-                            <a onclick="back()" class="back">〈</a>
-                            <a onclick="next()" class="next">〉</a>
-                        </div>
+                <div id="slider2" class="container">
+                    <div class="window">
+
+                    </div>
+                    <div class="btn-bar">
+                        <span onclick="back()" class="back">〈</span>
+                        <span onclick="next()" class="next">〉</span>
                     </div>
                 </div>
+
             </div>
 
+
+
+
+
+
         </div>
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -131,13 +130,15 @@
                 </div>
             </div>
         </footer>
-    </main>
 
+    </main>
     <script src="js/slider.js"></script>
+
     <script src="js/click.js"></script>
     <script> $("#image2").on("click", function () {
             $("#slider2").toggleClass("open-menu");
         })</script>
+
 
 </body>
 

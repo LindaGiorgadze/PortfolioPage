@@ -1,3 +1,26 @@
+@media (max-width:1370px){
+    .flex-div{
+        width: 100vw;
+        height: auto;
+    }
+    .window{
+        width: 53%;
+        margin: 0 auto;
+    }
+    .container{
+        width: 89vw;
+        left: 44%;
+    }
+    .btn-bar{
+        padding:0;
+    }
+}
+
+
+
+
+
+
 @media (max-width:1100px) {
     .divide-1{
         flex-wrap: wrap;
@@ -13,24 +36,35 @@
         left: 0;
         padding-left: 0;
         margin-bottom: 0;
+        height: 250px;
     }
-
+     .btn-bar{
+         padding: 0;
+     }
     .projectBlocks {
         grid-template-columns: auto auto;
     }
     .container{
-        width: 200%;
-        left: 78%;
+        padding: 0;
         height: 80%;
     }
+  
     .s-image{
-        width: 40vw;
+        width: 26vw;
     }
     .div-div{
-        height: 62%;
+        height: 42%;
     }
+        .flex-div{
+            width: 100vw;
+            height: 454px;
+        }
+    
 }
 @media (max-width:880px){
+    .btn-bar{
+        padding: 0;
+    }
     .slider-div{
         flex-wrap: wrap;
     }
@@ -41,22 +75,41 @@
     }
  
 }
-@media (max-width:700px){
+@media (max-width:740px){
     .projectBlocks {
         grid-template-columns: auto;
         justify-content: center;
     }
     .div-div{
         grid-template-columns: 100%;
-        margin:0 auto;
+    
     }
     .flex-div{
-       margin:0 auto;
+      
        margin-top: 20px;
+       height: auto;
+       margin-bottom: 110px;
+       padding-top: 0;
+       width: 71vw;
     }
     .container{
         display: none;
     }
+    .s-image{
+width: 46vw;
+    }
+    .main{
+        padding: 0 50px;
+    
+        margin-top: 0;
+    }
+    .slider-div{
+        width: 73vw;
+    }
+    .paragraph-div{
+        width: 101vw;
+    }
+
 }
 @media (max-width:580px){
     .author-div{
@@ -74,7 +127,7 @@
         padding: 20px 50px;
     }
     .main{
-        padding: 20px 50px;
+        padding: 2px 50px;
     }
     .img-div{
         background-size: contain;
@@ -84,7 +137,7 @@
         margin-top: 0;
         left: 0;
         padding-left: 0;
-        width: 69vw;
+      
     }
     .slider-div{
         margin:0 auto;
@@ -97,7 +150,16 @@
     }
     .paragraph1{
         font-size: 15px;
-        width: 73vw;
+        width: 67vw;
+    }
+    .slider-div{
+        margin-top: 55px;
+    }
+    .container{
+        display: none;
+    }
+    .s-image{
+        width: 71vw;
     }
 }
 @media (max-width:450px){
@@ -129,6 +191,7 @@
         padding: 20px 30px;
     }
     
+    
 }
 @media (max-width:350px) {
     .main1{
@@ -139,5 +202,8 @@
     }
     .searchAndAbout{
         max-width: 54vw;
+    }
+    .slider-div{
+        margin-top: 145px;
     }
 }
