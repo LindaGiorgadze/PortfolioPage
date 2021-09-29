@@ -1,6 +1,6 @@
 @media (max-width:1370px){
     .flex-div{
-        width: 100vw;
+        /* width: 100vw; */
         height: auto;
     }
     .window{
@@ -56,7 +56,7 @@
         height: 42%;
     }
         .flex-div{
-            width: 100vw;
+            /* width: 100vw; */
             height: 454px;
         }
     
@@ -107,7 +107,7 @@ width: 46vw;
         width: 73vw;
     }
     .paragraph-div{
-        width: 101vw;
+        /* width: 100vw; */
     }
 
 }
